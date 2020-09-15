@@ -24,4 +24,3 @@
     echo var_dump((bool) "0") . '<br>';
     echo var_dump(!"00") . '<br>';
     echo var_dump(!!"00") . '<br>';
-

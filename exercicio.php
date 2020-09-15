@@ -8,6 +8,9 @@
     <title>Exercício</title>
 </head>
 <body class="exercicio">
+    <?php
+        error_reporting(0);
+    ?>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Visualização do Exercício</h2>
