@@ -4,7 +4,7 @@
 
 <?php
    function verificarPalindromoFor($palavra) {   
-    echo "$palavra ";  
+    echo "'$palavra' ";  
     $palavra = str_replace(" ", "", strtolower($palavra)); 
 
     $cont2 = strlen($palavra) - 1;
@@ -18,7 +18,7 @@
    } 
 
    function verificarPalindromeStr($palavra) {
-       echo "$palavra ";
+       echo "'$palavra' ";
        $palavra = str_replace(" ", "", strtolower($palavra));
        return $palavra == strrev($palavra) ? "é palindromo!" : "não é palindromo";
    }
