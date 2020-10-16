@@ -15,7 +15,14 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
-            <div class="modulo verde-escuro">
+                <div class="modulo vermelho-escuro">
+                    <h3>Módulo 07 - Funções</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=funcoes&file=escopo">Função & Escopo</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=args_retorno">Argumentos & Retornos</a></li>
+                    </ul>
+                </div>
+                <div class="modulo verde-escuro">
                     <h3>Módulo 06 - Repetições</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=repeticoes&file=for">Laço For</a></li>
