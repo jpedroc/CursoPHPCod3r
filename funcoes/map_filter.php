@@ -33,4 +33,14 @@
     }
 
     $apenasOsAProvados2 = array_filter($notas, aprovados);
+    echo '<br>';
     print_r($apenasOsAProvados2);
+
+    function calculoLegal($nota) {
+        $notaArredondada = round($nota) + 1;
+        return $notaArredondada > 10 ? 10 : $notaArredondada;
+    }
+
+    $notasFinais3 = array_map(calculoLegal, $notas);
+    echo '<br>';
+    print_r($notasFinais3);
