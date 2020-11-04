@@ -1,5 +1,7 @@
 {
     "liveServer.settings.port": 5501,
     "namespaceResolver.sortAlphabetically": true,
-    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.argumentCount": false
 }
