@@ -15,6 +15,17 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo roxo-escuro">
+                    <h3>Módulo 09 - Includes</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=includes&file=include">Include</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_funcao">Include Função</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_require">Include vs Require</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=require_return">Require & Return</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_once">Include Once</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=desafio_include">Desafio Include</a></li>
+                    </ul>
+                </div>
                 <div class="modulo azul-escuro">
                     <h3>Módulo 08 - Paradigma O.O.</h3>
                     <ul>

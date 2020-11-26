@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/exercicio.css">
     <title>Exercício</title>
 </head>
+<?php
+    ini_set('display_errors', 0);
+?>
 <body class="exercicio">
-    <?php
-        error_reporting(0);
-    ?>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Visualização do Exercício</h2>
